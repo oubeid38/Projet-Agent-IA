@@ -1,6 +1,6 @@
 // Base URL de l'API FastAPI
-const API_BASE = "http://127.0.0.1:8000";
-//const apiUrl = "https://job-predict.onrender.com/predict";
+//const API_BASE = "http://127.0.0.1:8000";
+const apiUrl = "https://projet-agent-ia.onrender.com";
 
 const resultPanel = document.getElementById('resultPanel');
 
@@ -208,4 +208,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
         resultPanel.classList.add('show');
     });
+
 });
